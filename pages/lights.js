@@ -6,7 +6,7 @@ export default function Rooms({ lights, toggleLight }) {
     <>
       <Link href="/">← Back home</Link>
       <h1>All Lights</h1>
-      <Lights lights={lights} toggleLight={toggleLight} />
+      <Lights lights={lights} handleToggle={toggleLight} />
     </>
   );
 }
